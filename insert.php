@@ -1,6 +1,7 @@
 <?php
 require 'var.php';
 
+// Alert user if users try to add poll before login
 if(!isset($_SESSION["login"])){
     header("Location: index.php?addFail=1");
     die;

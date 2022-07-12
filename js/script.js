@@ -2,9 +2,8 @@
 
 // Loop over all polls
 for(let poll = 0; document.getElementById("voting" + String(poll)); poll++){
-    // Hide secret div
+    // Get secret div element
     let sec = document.getElementById("secret" + String(poll));
-    sec.hidden = true;
     
     // Get pollId
     let pollId = sec.innerHTML;
