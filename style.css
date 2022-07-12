@@ -1,0 +1,163 @@
+body{
+    background-color: #e5dd5b;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+.container .nav .logout_div{
+    float: right;
+    color: blue;
+    background-color: white;    
+}
+
+.container .nav .add_poll{
+    display: inline-block;
+    color: blue;
+    background-color: white;
+}
+
+.voting{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #540412;
+    margin-top: 15px;
+}
+
+.voting .polls_section choice{
+    display: block;
+}
+
+.login_box{
+    width: 500px;
+    padding: 0 15px 10px 15px;
+    border: 6px double black;
+    box-sizing: border-box;
+    left      : 50%;
+    top       : 40%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+
+.login_box h2{
+    text-align: center;
+}
+
+.login_box form a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login_box form a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.login_row{
+    width: 200px;
+    margin: 0 auto 10px auto;
+}
+
+.login_submit_div{
+    text-align: center;
+}
+
+.login_label_div{
+    display: block;
+}
+
+.login_input{
+    width: 200px;
+}
+
+.login_submit{
+    margin: 20px auto;
+}
+
+.login_remember{
+    text-align: center;
+}
+
+.registration_box{
+    width: 600px;
+    padding: 0 15px 10px 15px;
+    border: 6px double black;
+    box-sizing: border-box;
+    left      : 50%;
+    top       : 40%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+
+.registration_box h2{
+    margin-left: 6px;
+    text-align: center;
+}
+
+.registration_form{
+    margin: auto;
+    width: 200px;
+}
+
+.registration_row .registration_input{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.registration_row{
+    width: 200px;
+}
+
+.registration_input{
+    display: block;
+}
+
+.chosen{
+    color: red;
+}
+
+.insert_box{
+    border: 5px double black;
+    padding: 10px 10px 15px 10px;
+}
+
+.insert_box .insert_row textarea{
+    resize: none;
+    display: inline-block;
+    height: 15px;
+}
+
+.insert_box .insert_submit{
+    margin-top: 10px;
+}
+
+.login_warning{
+    color: red;
+}
+
+.search h3{
+    margin-bottom: 5px;
+}
+
+.search textarea{
+    resize: none;
+}
+
+.header h1{
+    margin-bottom: 5px;
+}
+
+.header h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.header{
+    border-bottom: 3px solid black;
+}
+
+.secret{
+    display: none;
+}
