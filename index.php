@@ -77,7 +77,7 @@ $rows = $result->fetchAll();
                     if($rows_choice) $activeChoice = $rows_choice[0]['vote'];
                 }
             ?>
-                <div id="secret<?=$idx;?>"><?=$row["id"];?></div>
+                <div id="secret<?=$idx;?>" class="secret"><?=$row["id"];?></div>
                 <div class="voting" id="voting<?=$idx;?>">
                     <p><?=$question;?></p>
                     <form action="" class="polls_section">
